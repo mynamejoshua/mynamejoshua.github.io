@@ -1,0 +1,123 @@
+#app {
+  justify-content: center;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* === this is for the animation of the stickman === */
+#head,
+#body,
+#r_arm,
+#r_leg,
+#l_arm,
+#l_leg {
+  transition: all 1s ease;
+  transform: translateY(101%);
+}
+
+#r_arm,
+#r_leg {
+  transform: translateX(101%) translateY(101%);
+}
+
+#l_arm,
+#l_leg {
+  transform: translateX(-101%) translateY(101%);
+}
+/* ====================================================== */
+
+.letterbox,
+.letterbox_none,
+.letterbox_guessed {
+  transition: all 1s ease; 
+  border-radius: 7px;
+
+  width: 10px; 
+  height: 10px;
+  line-height: 10px; /* this centers the text */
+
+  border: 1px solid black; 
+  background: #17141d;
+
+  padding: 5% 5%;
+  margin: 2% 2%;
+  
+  color: white;
+  text-align: center;
+
+  overflow: hidden; 
+}
+
+.letterbox:hover {
+  background: #2c2736;
+}
+
+
+.letterbox_none:hover {
+  transition: all .2s ease; 
+  background: rgba(255, 255, 255, 0);
+}
+
+
+
+
+#correct_guesses,
+#alphabet {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#correct_guesses {
+  flex-wrap: nowrap;
+}
+
+
+h3 {
+  margin: 3%;
+}
+
+/* styles for the high scores */
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+/* Style table header */
+thead {
+  background-color: grey;
+}
+
+/* Style table header cells */
+th {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid grey;
+}
+
+/* Style table body rows */
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style alternating background color for table rows */
+tbody tr:nth-child(even) {
+  background-color: grey;
+}
+
+/* Style table body cells */
+td {
+  padding: 10px;
+}
+
+/* Style table caption */
+caption {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}

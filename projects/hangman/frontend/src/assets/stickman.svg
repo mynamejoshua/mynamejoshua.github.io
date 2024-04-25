@@ -1,0 +1,10 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g id="Frame 1">
+        <circle id="head" cx="100" cy="25" r="25" fill="black"/>
+        <path id="body" d="M100 50V100" stroke="black" stroke-width="10" stroke-linecap="round"/>
+        <path id="r_arm" d="M100 51.8977L135.355 87.253" stroke="black" stroke-width="10" stroke-linecap="round"/>
+        <path id="r_leg" d="M100 100L135.355 135.355" stroke="black" stroke-width="10" stroke-linecap="round"/>
+        <path id="l_arm" d="M65 87.3553L100.355 52" stroke="black" stroke-width="10" stroke-linecap="round"/>
+        <path id="l_leg" d="M65 135.355L100.355 100" stroke="black" stroke-width="10" stroke-linecap="round"/>
+    </g>
+</svg>
